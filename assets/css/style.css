@@ -27,10 +27,6 @@ body{
     overflow-x: hidden;
 }
 
-/* ##### 00 : GENERAL  ##### */
-section{
-	margin-top: 80px;
-}
 .green-section{
 	background-color:#7beec7;
 }
@@ -395,6 +391,10 @@ footer.main-footer ul.social-icons {
 }
 
 /* ##### 03 : KNOWLEDGE  ##### */
+.knowledge {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
 .knowledge .knowledge-left i.icon{
 	display: block;
 	font-size: 36px;
@@ -546,6 +546,9 @@ footer.main-footer ul.social-icons {
 		margin-right: 50%;
 		transform: translateX(50%);
 	}
+	.knowledge {
+		margin-top: 40px;
+	}
 
 	.knowledge .knowledge-left {
 		text-align: center;
@@ -563,7 +566,7 @@ footer.main-footer ul.social-icons {
 }
 
 @media (max-width: 768px) {
-	section {
+	.knowledge {
 		margin-top: 40px;
 	}
 
